@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    body {
+      margin: 0;
+      font-family: "Roboto", serif;
+    }
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      
+    }
+    .logo img{
+        height: 110px;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #000;
+      margin-right: 15px;
+      
+    }
+
+    header .menu {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    header .menu a:hover{
+      text-decoration: underline;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #f4f4f4;
+      padding: 20px;
+      gap: 30px;
+      
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1vw;
+      font-weight: 500;
+    }
+    nav a:hover{
+      color: #090377;
+    }
+   
+
+    .bg-section {
+      text-align: center;
+      color: #fff;
+      background-image: url(https://www.webnys.com/wp-content/uploads/2024/07/AI-Caribbean.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 100px 20px;
+      height: 500px;
+    }
+
+    .bg-section h1 {
+      text-align: left;
+      font-size: 3.5vw;
+      margin-bottom: 20px;
+    }
+
+    .bg-section p {
+      text-align: left;
+      font-size: 1.6vw;
+      margin-bottom: 10px;
+    }
+
+    .bg-section .buttons {
+      display: flex;
+      justify-content: left;
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .bg-section .buttons a {
+      text-decoration: none;
+      background: #002ed4;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 1rem;
+      transition: background 0.5s;
+    }
+
+    .bg-section .buttons a:hover {
+      background: #008c9e;
+    }
+    .top{
+      padding-top: 160px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .top-ai{
+      height: 550px;
+      width: 60vw;
+      
+    }
+    .top-ai h1{
+      text-align: center;
+      font-size: 2.7vw;
+    }
+    .top-ai p{
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1.2vw;
+      line-height: 1.5;
+    }
+    .ai-tools{
+      
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .left-photo img{
+        height: 450px;
+        width: 40vw;
+        
+        border-radius: 20px;
+    }
+    .right-content{
+      height: 450px;
+      width: 40vw;
+      background-color: rgb(238, 236, 235);
+      border-radius: 20px;
+    }
+    .space{
+      height: 150px;
+    }
+    .right-content h5{
+      margin: 50px 20px 10px 20px;
+      font-size: 1.2vw;
+      font-weight: 400;
+    }
+    .right-content h1{
+      margin: 30px 20px 10px 20px;
+      font-size: 2.5vw;
+    }
+    .right-content p{
+      margin: 30px 20px 10px 20px;
+      font-size: 1.2vw;
+      line-height: 1.5;
+    }
+    .right-content a{
+      margin: 40px 20px 10px 20px;
+      color: #000;
+      font-size: 1.2vw;
+      font-weight: 500;
+    }
+
+/* ----------------------------- */
+   .blog{
+    margin-top: 100px;
+    
+   }
+   .blog h1{
+    text-align: center;
+    font-size: 3vw;
+   }
+  .card-blog {
+  display: flex;
+  justify-content:center;
+  gap: 30px;
+  margin: 60px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+  height: 500px;
+  
+}
+
+.card-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.date {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.description {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.ai-news h1{
+  text-align: center;
+  font-size: 3vw;
+}
+
+/* ------------------------------- */
+  
+.card-news {
+  display: flex;
+  justify-content:center;
+  gap: 30px;
+  margin: 60px;
+}
+
+.card1 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+  height: 500px;
+  
+}
+
+.card-image1 {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.card-content1 {
+  padding: 15px;
+}
+
+.date1 {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card1 h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #333;
+}
+.card1 h3:hover{
+  color: #164e6f;
+}
+
+.description1 {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.ai-news h1{
+  text-align: center;
+  font-size: 3vw;
+}
